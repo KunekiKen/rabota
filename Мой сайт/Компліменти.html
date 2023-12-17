@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+        let number = prompt("How many compliments do you want?", )
+        let compliments=["cute","brave","clever","smart","polite","perfect","kind","friendly","lucky"]
+        let animals = ["bear","lion","tiger","wolf","hypotoamus","pig","chicken","cat","dog"]
+        for(let i=1; i<=number;i++){
+        let rand=Math.floor(Math.random()*compliments.length);
+        document.writeln(`You are so ${compliments[rand]} as ${animals[rand]}! <br>`)
+        }10
+    </script>
+</body>
+</html>
